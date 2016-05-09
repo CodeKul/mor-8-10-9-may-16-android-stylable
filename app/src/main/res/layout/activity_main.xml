@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:code="http://schemas.android.com/apk/res/com.codekul.customviewapp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.codekul.customviewapp.MainActivity"
+    android:orientation="vertical">
+
+    <com.codekul.customviewapp.MyView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        code:cirCol="#00ff00"
+        code:cirRad="60"
+         />
+
+    <com.codekul.customviewapp.MyView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        code:cirCol="#ffff00"
+        code:cirRad="30"
+        />
+</LinearLayout>
